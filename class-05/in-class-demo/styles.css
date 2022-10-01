@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid black;
+}
+
+header {
+  border: 4px solid green;
+  /* padding: 10px; */
+  margin: 10px;
+  height: 70px;
+}
+
+header, main, footer {
+  margin: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  margin: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a { 
+  margin-left: 20px;
+}
+
+main {
+  border: 4px solid orange;
+  /* padding: 10px; */
+}
+
+/* Grab something by ID with # */
+#top-section {
+  background-color: yellow;
+}
+
+/* Grab something by class with . */
+.lower {
+  background-color: blue;
+  display: inline-block;
+  width: 30%;
+}
+
+.lower p {
+  font-size: 20px;
+}
+
+footer {
+  border: 4px solid purple;
+  /* padding: 10px; */
+}
+
+p {
+  font-size: 50px;
+}
+
+img {
+  border-radius: 50px;
+}
