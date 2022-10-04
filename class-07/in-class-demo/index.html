@@ -4,6 +4,7 @@
 <head>
   <title>My 102n65 Website</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
 </head>
 
 <body>
@@ -15,25 +16,23 @@
       <a href="/">Link 2</a>
       <a href="https://www.google.com">Link 3</a>
     </nav>
+    <script>
+      getName();
+    </script>
   </header>
 
   <main>
     <section id="top-section">
       <img id="big-image" src="https://via.placeholder.com/600x400?text=Big+Image" alt="">
 
-      <script>
-        // declare a variable called usersName, assign it the value of user's input returned from prompt
-        let usersName = prompt("What is your name?");
-        // print message to console
-        console.log('User entered: ' + usersName);
-        // write message to the HTML document
-        document.write("Greetings, " + usersName + ", welcome to my page!");
-      </script>
-
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Pulvinar pellentesque habitant morbi
         tristique senectus. Id volutpat lacus laoreet non curabitur gravida arcu. </p>
     </section>
+
+    <script>
+      myFavColor();
+    </script>
 
     <section id="first-small" class="lower">
       <img src="https://via.placeholder.com/150x150?text=Topic+Image" alt="">
@@ -60,33 +59,7 @@
 
   <footer>
     <script>
-      // ask the user a question, assign their response to a variable called 'response'
-      let response = prompt("Did you like my page?");
-      // print message in console
-      console.log("User said: " + response);
-
-      // CONDITIONAL LOGIC
-      if(response == "Yes"){
-        document.write("Come back soon!");
-      } else if (response == "No"){
-        document.write("Thanks for visiting!");
-      } else {
-        document.write("That is not a response I was looking for...");
-      }
-
-      let userNum = prompt("Guess what number I'm thinking of");
-
-      if (userNum === 42) {
-        console.log("You guessed it!");
-      } else if (userNum < 42) {
-        console.log("Your number was less than my number");
-      } else if (userNum > 42) {
-        console.log("Your number was greater than my number");
-      } else {
-        console.log("That's not a number");
-      }
-
-
+      likedIt();
     </script>
     <p>&copy;Kassie Bradshaw & 102n65</p>
   </footer>
